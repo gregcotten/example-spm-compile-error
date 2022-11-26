@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-com",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gregcotten/swift-com.git",
+      "state" : {
+        "branch" : "example-spm-compile-error",
+        "revision" : "183cc05447408a223333c09abb849ace653b75d2"
+      }
+    }
+  ],
+  "version" : 2
+}
