@@ -15,8 +15,7 @@ The first hint I got was when I used the flag `--use-integrated-swift-driver` an
 Run `swift build -c release`
 
 Expected result: .dll is built
-Actual result: Compiler error
+Actual result: 
 
-```
-<unknown>:0: error: supplementary output file map 'C:\\Users\\gregc\\AppData\\Local\\Temp\\TemporaryDirectory.aUcYOo\\supplementaryOutputs-1' is missing an entry for 'C:\\Users\\gregc\\Documents\\GitHub\\example-spm-compile-error\\.build\\checkouts\\swift-com\\Sources\\SwiftCOM\\COMBase.swift' (this likely indicates a compiler issue; please submit a bug report (https://swift.org/contributing/#reporting-bugs) and include the project)
-```
+Error:
+`<unknown>:0: error: supplementary output file map 'C:\\Users\\gregc\\AppData\\Local\\Temp\\TemporaryDirectory.aUcYOo\\supplementaryOutputs-1' is missing an entry for 'C:\\Users\\gregc\\Documents\\GitHub\\example-spm-compile-error\\.build\\checkouts\\swift-com\\Sources\\SwiftCOM\\COMBase.swift' (this likely indicates a compiler issue; please submit a bug report (https://swift.org/contributing/#reporting-bugs) and include the project)`
