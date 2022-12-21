@@ -1,5 +1,7 @@
 # example-spm-compile-error
 
+[SPM Issue](https://github.com/apple/swift-package-manager/issues/5927)
+
 # Details
 I made a [fork](https://github.com/gregcotten/swift-com/tree/example-spm-compile-error) of  [SwiftCOM](https://github.com/compnerd/swift-com) and removed the `.dynamic` requirement of the vended library. My intent was to make a *larger* single dynamic library with that code packaged in so I didn't have to deal with multiple .dlls.
 
